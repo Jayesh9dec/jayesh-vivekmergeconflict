@@ -1,6 +1,5 @@
 #include<iostream>
 using namespace std;
-//In this code we use max heap;
 void heapify(int A[],int n,int i)
 {
     //In this we arrange the single subtree according heap requirement
@@ -50,8 +49,6 @@ void sort(int A[],int n)
 }
 int main()
 {
-    //If index starts from 0, then child of ith node are 2*i+1 and 2*i+2
-    //If index starts with 1, then 2*i and 2*i+1
     int n,x;
     cout<<"\nEnter number of elements:- ";
     cin>>n;
